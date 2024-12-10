@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Navbar Example</title>
+    <style>
+        /* 重置一些默认样式 */
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 导航栏样式 */
+        .navbar {
+            position: fixed; /* 固定定位 */
+            top: 0; /* 距离页面顶部0 */
+            width: 100%; /* 占据整个宽度 */
+            background-color: #333; /* 背景颜色 */
+            color: white; /* 字体颜色 */
+            text-align: center; /* 文字居中 */
+            padding: 10px 0; /* 内边距 */
+            z-index: 1000; /* 确保导航栏在最上层 */
+        }
+
+        /* 页面内容样式 */
+        .content {
+            padding-top: 60px; /* 顶部内边距，确保内容不被导航栏遮挡 */
+        }
+
+        .video-list {
+            padding: 20px;
+        }
+
+        .video-item {
+            margin: 10px 0;
+            padding: 15px;
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        固定导航栏
+    </div>
+    <div class="content">
+        <div class="video-list">
+            <div class="video-item">视频 1</div>
+            <div class="video-item">视频 2</div>
+            <div class="video-item">视频 3</div>
+            <div class="video-item">视频 4</div>
+            <div class="video-item">视频 5</div>
+            <div class="video-item">视频 6</div>
+            <div class="video-item">视频 7</div>
+            <div class="video-item">视频 8</div>
+            <div class="video-item">视频 9</div>
+            <div class="video-item">视频 10</div><div class="video-item">视频 10</div><div class="video-item">视频 10</div><div class="video-item">视频 10</div><div class="video-item">视频 10</div><div class="video-item">视频 10</div><div class="video-item">视频 10</div><div class="video-item">视频 10</div>
+        </div>
+    </div>
+</body>
+</html>
